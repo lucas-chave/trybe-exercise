@@ -69,4 +69,4 @@ function everyoneWasBornOnSecXX() {
   // escreva seu código aqui
   return books.every((user) => user.author.birthYear > 1900 && user.author.birthYear < 2001);
 }
-assert.strictEqual(everyoneWasBornOnSecXX(), expectedResult);
+//0assert.strictEqual(everyoneWasBornOnSecXX(), expectedResult);
