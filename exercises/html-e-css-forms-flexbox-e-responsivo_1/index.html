@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" method="GET">
+      <fieldset>
+        <input name="name" type="text" id="name" maxlength="40" required>
+        <input name="email" type="email" id="email" maxlength="50" required>
+        <input name="cpf" type="number" id="cpf" maxlength="11" required>
+        <input name="address" type="text" id="address" maxlength="200" required>
+        <select name="state" id="state" value="" required></select>
+        <div class="raidios">
+          <input name="radioAddress" type="radio" id="apartment" required>
+          <label for="apartment">Apartamento</label>
+          <input name="radioAddress" type="radio" id="home">
+          <label for="home">Casa</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <label for="abstractResume">Resumo do currículo</label>
+        <textarea name="abstractResume" id="abstractResume" maxlength="1000" cols="30" rows="10" placeholder="Escreva um resumo para o seu currículo" required></textarea>
+        <label for="office">Cargo</label>
+        <input name="office" type="text" id="office" maxlength="40" required>
+        <label for="describe">Descrição do cargo</label>
+        <input name="describe" type="text" id="describe" maxlength="500" required>
+        <label for="startDate">Data de Início</label>
+        <input name="startDate" type="date" id="startDate"  required>
+      </fieldset>
+      <button type="reset">Limpar</button>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="dice"></div>
+    <script src="sripts.js"></script>
+  </body>
+</html>
