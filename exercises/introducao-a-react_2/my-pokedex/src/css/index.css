@@ -4,17 +4,9 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
   }
-  
-.container-pokemon {
+
+#root {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgb(202, 202, 202);
-  margin: 10px;
-  width: 250px;
-  align-items: center;
-}
-
-.title-pokemon {
-  font-size: 1.5rem;
-}
+} 
